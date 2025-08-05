@@ -5,65 +5,28 @@
   <title>Blog</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-  <header>
-    <div class="header-right">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="project.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    </div>
-  </header>
+
+<body>
+<header id="header"></header>
+
   <div class="page-wrapper">
+    <section class="blog-list">
+      <p><br>New blogs will be posted shortly for updates on my journey!</p>
 
-  <section class="blog-list">
-  <p><br>New blogs will be posted shortly for updates on my journey!</p>
-    <style>
-    .blog-image {
-        width: 100%;
-        height:400px;   
-    }
-    </style>
+      <!-- 🔽 Dynamic blog content will be injected here -->
+      <div id="blog-list"></div>
 
-      <div class="blog-card">
-        <h2>Blog Post 3</h2>
-        <p class="blog-date">xxxx, xx xxxx</p>
-        <p class="blog-author">Author: Taha Hashmi</p>
-        <img src="placeholder.jpg" alt="Blog Post Image" class="blog-image">
-      </div>
-      <div class="blog-card">
-        <h2>Blog Post 2</h2>
-        <p class="blog-date">xxxx, xx xxxx</p>
-        <p class="blog-author">Author: Taha Hashmi</p>
-        <img src="placeholder.jpg" alt="Blog Post Image" class="blog-image">  
-      </div>
-      <div class="blog-card">
-        <h2>Blog Post 1</h2>
-        <p class="blog-date">xxxx, xx xxxx</p>
-        <p class="blog-author">Author: Taha Hashmi</p>
-        <img src="placeholder.jpg" alt="Blog Post Image" class="blog-image">  
-      </div>
+      <style>
+        .blog-image {
+          width: 100%;
+          height: 400px;
+        }
+      </style>
+    </section>
+
+  <footer class="website-footer" id="footer"></footer>
   </div>
-  <footer class="website-footer">
-  <div class="footer-content">
-    <p>&copy; 2025 Taha Hashmi. All rights reserved.</p>
-    
-    <div class="footer-buttons">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="resume.html">Resume</a>
-      <a href="project.html">Projects</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://www.linkedin.com/in/taha-hashmi-8865322a8/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/taha04004" target="_blank">GitHub</a>
-    </div>
-  </div>
-</footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
